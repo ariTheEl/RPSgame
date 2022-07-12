@@ -44,7 +44,7 @@ function playRound(playerSelection, computerSelection) {
 }
 function game(){
     let i=0; 
-    while (i<3){
+    while (i<5){
         let playerSelection=prompt("ROCK, PAPER or SCISSORS?")
         computerPlay()
         let computerSelection=computerPlay() 
